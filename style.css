@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    color: white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    font-weight: bold;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game button {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background: white;
+    color: black;
+}
